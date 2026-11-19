@@ -1,0 +1,5 @@
+feature,value,records,complications,complication_rate_pct
+previous_hypertension,0,4459,133,2.98
+previous_hypertension,1,541,69,12.75
+previous_adverse_outcome,0,4328,166,3.84
+previous_adverse_outcome,1,672,36,5.36

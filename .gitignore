@@ -1,0 +1,39 @@
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies and builds
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Operating system
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local model artifacts
+*.joblib
+*.pkl
+
+# Local data files
+data/raw/*.csv
+data/processed/*.csv
+
+# Temporary files
+*.tmp

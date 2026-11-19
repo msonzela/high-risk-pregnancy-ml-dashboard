@@ -1,0 +1,121 @@
+{
+    "project": "Predicting High-Risk Pregnancy Outcomes",
+    "dataset": "Synthetic demonstration dataset",
+    "target": "hypertensive_complication",
+    "selected_model": "Logistic Regression",
+    "selection_metric": "validation_average_precision",
+    "decision_threshold": 0.5,
+    "training_records": 2987,
+    "validation_records": 983,
+    "testing_records": 1030,
+    "training_prevalence": 0.04050887177770338,
+    "validation_prevalence": 0.04069175991861648,
+    "testing_prevalence": 0.039805825242718446,
+    "validation_results": {
+        "Dummy Baseline": {
+            "roc_auc": 0.5,
+            "average_precision": 0.04069175991861648,
+            "brier_score": 0.03903597404141423,
+            "accuracy": 0.9593082400813835,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "threshold": 0.5,
+            "confusion_matrix": {
+                "true_negative": 943,
+                "false_positive": 0,
+                "false_negative": 40,
+                "true_positive": 0
+            }
+        },
+        "Logistic Regression": {
+            "roc_auc": 0.7443001060445387,
+            "average_precision": 0.13155221952851148,
+            "brier_score": 0.2037603702702508,
+            "accuracy": 0.6998982706002035,
+            "precision": 0.07357859531772576,
+            "recall": 0.55,
+            "f1": 0.12979351032448377,
+            "threshold": 0.5,
+            "confusion_matrix": {
+                "true_negative": 666,
+                "false_positive": 277,
+                "false_negative": 18,
+                "true_positive": 22
+            }
+        },
+        "Random Forest": {
+            "roc_auc": 0.7249204665959704,
+            "average_precision": 0.12042677341094025,
+            "brier_score": 0.048777924808385435,
+            "accuracy": 0.9552390640895219,
+            "precision": 0.3,
+            "recall": 0.075,
+            "f1": 0.12,
+            "threshold": 0.5,
+            "confusion_matrix": {
+                "true_negative": 936,
+                "false_positive": 7,
+                "false_negative": 37,
+                "true_positive": 3
+            }
+        },
+        "XGBoost": {
+            "roc_auc": 0.7368239660657476,
+            "average_precision": 0.11461304167864166,
+            "brier_score": 0.03924918968284782,
+            "accuracy": 0.9572736520854527,
+            "precision": 0.3333333333333333,
+            "recall": 0.05,
+            "f1": 0.08695652173913043,
+            "threshold": 0.5,
+            "confusion_matrix": {
+                "true_negative": 939,
+                "false_positive": 4,
+                "false_negative": 38,
+                "true_positive": 2
+            }
+        }
+    },
+    "selected_model_test_results": {
+        "roc_auc": 0.7651483390465856,
+        "average_precision": 0.14692961911158758,
+        "brier_score": 0.19416876683640538,
+        "accuracy": 0.7038834951456311,
+        "precision": 0.09259259259259259,
+        "recall": 0.7317073170731707,
+        "f1": 0.1643835616438356,
+        "threshold": 0.5,
+        "confusion_matrix": {
+            "true_negative": 695,
+            "false_positive": 294,
+            "false_negative": 11,
+            "true_positive": 30
+        }
+    },
+    "dummy_test_results": {
+        "roc_auc": 0.5,
+        "average_precision": 0.039805825242718446,
+        "brier_score": 0.03822181579389495,
+        "accuracy": 0.9601941747572815,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "threshold": 0.5,
+        "confusion_matrix": {
+            "true_negative": 989,
+            "false_positive": 0,
+            "false_negative": 41,
+            "true_positive": 0
+        }
+    },
+    "limitations": [
+        "All data and outcomes are synthetic.",
+        "Data-generating relationships are invented.",
+        "Model performance does not establish clinical validity.",
+        "No independent real-world external validation.",
+        "Probability calibration has not been corrected.",
+        "Threshold 0.5 is illustrative, not clinically optimized.",
+        "Not suitable for patient care or clinical decisions."
+    ]
+}

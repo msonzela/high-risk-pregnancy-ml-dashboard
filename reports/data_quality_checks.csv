@@ -1,0 +1,8 @@
+variable,minimum_allowed,maximum_allowed,invalid_records
+maternal_age,15,49,0
+gestational_age_weeks,20,42,0
+anc_visits,0,20,0
+bmi,12,60,0
+systolic_bp,70,250,0
+diastolic_bp,40,160,0
+haemoglobin_g_dl,4,20,0

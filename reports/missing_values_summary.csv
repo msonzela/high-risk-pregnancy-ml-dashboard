@@ -1,0 +1,15 @@
+variable,missing_count,missing_percentage
+pregnancy_id,0,0.0
+facility_id,0,0.0
+region,0,0.0
+maternal_age,0,0.0
+parity,0,0.0
+gestational_age_weeks,0,0.0
+anc_visits,150,3.0
+bmi,250,5.0
+previous_hypertension,0,0.0
+previous_adverse_outcome,0,0.0
+systolic_bp,0,0.0
+diastolic_bp,0,0.0
+haemoglobin_g_dl,350,7.0
+hypertensive_complication,0,0.0
