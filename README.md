@@ -203,7 +203,7 @@ It is not affiliated with, endorsed by, or deployed by Ifakara Health Institute.
 
 Data Scientist | Data Analyst
 
-[GitHub](https://github.com/nkutigwa) | [LinkedIn](https://www.linkedin.com/in/vicent-wilson/)
+[GitHub](https://github.com/msonzela) | [LinkedIn](https://www.linkedin.com/in/vicent-wilson/)
 
 ---
 
